@@ -18,7 +18,7 @@ Compatibility:
 Installation:
 1. Ensure you have Magisk installed on your device.
 2. Download the NFC Framework Magisk module ZIP file.
-3. Either Flash with Fox's Magisk Module Manager.
+3. *MUST* be Flashed with Fox's Magisk Module Manager, I have 0 idea why but when I try to use Magisk it fails for whatever reason trying to read config.sh.
 4. Reboot your device.
 5. Install *SAMSUNGS* com.android.nfc apk, you need to manually make a directory in /system/app called NfcNci << The Capitialzation matters! example /system/app/NfcNci -- All the required files can be found in this repo in /system/app. You need to make your devices /system/app/NfcNci look identical, including the /system/app/NfcNci/lib/arm64 bit with the lib from this repo. make sure to chmod the actual NfcNci.apk and the lib with ```chmod 644```, then reboot.
 
@@ -35,7 +35,7 @@ Disclaimer:
 - Use this module at your own risk.
 
 Acknowledgments:
-- Samsung, The guys who made all the NFC stuff, Google, TJW & myself.
+- @Samsung, @NFC-Tools , @Google, @TopJohnWu @myself
 
 
 
