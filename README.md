@@ -1,4 +1,4 @@
-# NFC-Framework-for-Samsung
+# NFC Framework for Samsung Devices - Magisk Module
 NFC Framework Magisk Module (VERY Early Development)
 
 This Magisk module is designed for modern Samsung devices released after 2020, although it may work on older. It aims to enable the NFC hardware that may be present on these devices but not fully supported or enabled by default. Please note that this module is currently in very early stages of development, and as such, it may have limited functionality or potential issues.
