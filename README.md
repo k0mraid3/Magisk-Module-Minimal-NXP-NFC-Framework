@@ -37,5 +37,6 @@ Disclaimer:
 Acknowledgments:
 - @Samsung, @NFC-Tools , @Google, @TopJohnWu @myself
 
+![image](https://github.com/k0mraid3/Magisk-Module-NFC-Framework-for-Samsung/assets/62849592/46ec2753-b7cc-4300-8b0d-7d0a164d6483)
 
 
