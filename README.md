@@ -5,7 +5,7 @@ This Magisk module is designed for modern Samsung devices released after 2020, a
 
 TODO-
 -Need to make the module first check if /system/app/NfcNci exists and if not make dir if needed and move everything from module-root/system/app/NfcNci intoi it.
-All files are in place, but config.sh needs to be adjusted. ```(06/21/2023)```
+All files for apk are in place, but config.sh needs to be adjusted to automate install. ```(06/21/2023)```
 
 Features:
 - Attempts to enable NFC functionality on some Samsung devices by adding the missing framework, permissions and libraries and NFC apk.
