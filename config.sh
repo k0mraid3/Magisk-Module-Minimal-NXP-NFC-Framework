@@ -103,6 +103,7 @@ on_install() {
   cp -f $MODPATH/system/lib64/libnfc_nxpsn_jni.so /system/lib64/libnfc_nxpsn_jni.so
   cp -f $MODPATH/system/lib64/libnfc-nxpsn.so /system/lib64/libnfc-nxpsn.so
   cp -f $MODPATH/system/lib64/vendor.samsung.hardware.nfc@2.0.so /system/lib64/vendor.samsung.hardware.nfc@2.0.so
+  cp -Rf $MODPATH/system/app/NfcNci /system/app/NfcNci
 }
 
 ##########################################################################################
@@ -137,6 +138,8 @@ set_permissions() {
   set_perm 644 /system/lib64/libnfc_nxpsn_jni.so
   set_perm 644 /system/lib64/libnfc-nxpsn.so
   set_perm 644 /system/lib64/vendor.samsung.hardware.nfc@2.0.so
+  set_perm 644 /system/app/NfcNci/NfcNci.apk
+  set_perm 644 /system/app/NfcNci/lib/arm64/libnfc_nxpsn_jni.so
   # Only some special files require specific permissions
   # The default permissions should be good enough for most cases
 
