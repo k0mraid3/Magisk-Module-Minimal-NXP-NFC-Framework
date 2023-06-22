@@ -7,7 +7,9 @@ TODO-
 
 -Need to make the module check if files exist before trying to copy, no need to overwrite files if they exist unless user wants this. Need some logic for this.
 
--Source remainder of missing framework (See pic at below labled S21) 
+-Source remainder of missing parts. I.e Kernel Modules, JAR's, .so Libs, etc. (See pic at below labled S21) 
+
+-Identify any system properties (getprop/setprop) that need to be set and at what boot stage && create needed .prop file for module.
 
 -Further Debugging and log audits
 
