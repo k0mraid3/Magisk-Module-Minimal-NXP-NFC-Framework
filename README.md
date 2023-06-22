@@ -13,7 +13,7 @@ Features:
 - Attempts to enable NFC functionality on some Samsung devices by adding the missing framework, permissions and libraries and NFC apk.
 - Will attempt to provide support for NFC attachments.
 
-This module will enable the following features.
+This module will currently enable the following features.
 
 ![image](https://github.com/k0mraid3/Magisk-Module-NFC-Framework-for-Samsung/assets/62849592/46ec2753-b7cc-4300-8b0d-7d0a164d6483)
 
