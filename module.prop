@@ -1,6 +1,6 @@
-id="nfcport"
-name="nfcport"
-version="v1"
+id=nfcport
+name=nfcport
+version=v1
 versionCode=1
-author="k0mraid3"
-description="nfcport"
+author=k0mraid3
+description=NFC Framework for Samsung
