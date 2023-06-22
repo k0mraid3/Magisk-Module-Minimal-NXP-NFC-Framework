@@ -44,6 +44,10 @@ Important Note:
 - There should be a VERY low risk of any kind of bootloop or serious crashes & I have not experienced any instability with this module enabled at all. *Please report if you do.*
 - Please proceed with caution and be aware that using this module is at your own risk.
 - !MOUNTING SYSTEM! On the Samsung Galaxy Tab S8+, i used HuskyDG's "Magical OverlayFS" Magisk Module, however once installed, you will need to go into /data/adb/modules/magisk_overlayfs and locate the "mode.sh" and edit the line "export OVERLAY_LEGACY_MOUNT" from "false" to "true". It should look like this when you are done. ```export OVERLAY_LEGACY_MOUNT=true```
+
+This teardown video shows the reasoning for this module, as can be seen in the video, the device does indeed have dormant hardware. 
+
+https://www.youtube.com/watch?v=bM8EVrQahyM&t=205s
   
 Contributing:
 - If you encounter any issues or have suggestions for improvements, feel free to open an issue or contribute to the project.
