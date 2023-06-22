@@ -7,9 +7,7 @@ TODO-
 
 -Need to make the module check if /system/app/NfcNci exists before trying to copy.
 
--Source remainder of missing framework (See pic at bottom)
-
--Rework ```module.prop``` to fix the unneeded "" around stings. 
+-Source remainder of missing framework (See pic at bottom) 
 
 -Further Debugging and log audits
 
