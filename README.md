@@ -5,7 +5,7 @@ This Magisk module is designed for modern Samsung devices released after 2020, a
 
 TODO-
 
--Need to make the module check if /system/app/NfcNci exists before trying to copy.
+-Need to make the module check if files exist before trying to copy, no need to overwrite files if they exist unless user wants this. Need some logic for this.
 
 -Source remainder of missing framework (See pic at below labled S21) 
 
@@ -33,12 +33,13 @@ Compatibility:
 Installation:
 1. Ensure you have Magisk installed on your device.
 2. Download the NFC Framework Magisk module ZIP file.
-3. *MUST* be Flashed with Fox's Magisk Module Manager, I have 0 idea why but when I try to use Magisk it fails for whatever reason trying to read config.sh.
+3. *MUST* be Flashed with Fox's Magisk Module Manager, I have 0 idea why but when I try to use Magisk it fails for whatever reason trying to read config.sh, *maybe its th eway i formatted it? Worth checking.*
 4. Reboot your device.
 
 
 Important Note:
 - This module is still in early development and may have bugs or limited functionality.
+- There should be a VERY low risk of any kind of bootloop or serious crashes & I have not experienced any instability with this module enabled at all. *Please report if you do.*
 - Please proceed with caution and be aware that using this module is at your own risk.
 - !MOUNTING SYSTEM! On the Samsung Galaxy Tab S8+, i used HuskyDG's "Magical OverlayFS" Magisk Module, however once installed, you will need to go into /data/adb/modules/magisk_overlayfs and locate the "mode.sh" and edit the line "export OVERLAY_LEGACY_MOUNT" from "false" to "true". It should look like this when you are done. ```export OVERLAY_LEGACY_MOUNT=true```
   
