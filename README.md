@@ -4,10 +4,16 @@ NFC Framework Magisk Module (VERY Early Development)
 This Magisk module is designed for modern Samsung devices released after 2020, although it may work on older. It aims to enable the NFC hardware that may be present on these devices but not fully supported or enabled by default. Please note that this module is currently in very early stages of development, and as such, it may have limited functionality or potential issues.
 
 TODO-
+
 -Need to make the module check if /system/app/NfcNci exists before trying to copy.
+
 -Source remainder of missing framework (See pic at bottom)
+
 -Rework ```module.prop``` to fix the unneeded "" around stings. 
+
 -Further Debugging and log audits
+
+
 ```(TODO UPDATED 06/22/2023)```
 
 Features:
