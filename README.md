@@ -51,12 +51,6 @@ Disclaimer:
 - Use this module at your own risk.
 
 Acknowledgments:
-- @Samsung, @NFC-Tools, @Google, @TopJohnWu @myself
+- @Samsung, @NFC-Tools, @Google, @TopJohnWu @myself @everyoneiforgot
   
-Currently Enabled
-![image](https://github.com/k0mraid3/Magisk-Module-NFC-Framework-for-Samsung/assets/62849592/46ec2753-b7cc-4300-8b0d-7d0a164d6483)
-
-Goal to have enabled (This is what comes stock on my S21, so goal is to get all of these, in the above screenshot from the Tab S8+)
-![image](https://github.com/k0mraid3/Magisk-Module-NFC-Framework-for-Samsung/assets/62849592/5f69104f-daa8-46cc-a8ef-38e03587b0ae)
-
 
