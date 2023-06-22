@@ -103,6 +103,7 @@ on_install() {
   cp -f $MODPATH/system/lib64/libnfc_nxpsn_jni.so /system/lib64/libnfc_nxpsn_jni.so
   cp -f $MODPATH/system/lib64/libnfc-nxpsn.so /system/lib64/libnfc-nxpsn.so
   cp -f $MODPATH/system/lib64/vendor.samsung.hardware.nfc@2.0.so /system/lib64/vendor.samsung.hardware.nfc@2.0.so
+  cp -f $MODPATH/system/etc/nfc_key /system/etc/nfc_key
   cp -Rf $MODPATH/system/app/NfcNci /system/app/NfcNci
 }
 
@@ -125,6 +126,7 @@ set_permissions() {
   set_perm 644 /system/etc/permissions/com.sec.feature.nfc_authentication.xml
   set_perm 644 /system/etc/permissions/com.sec.feature.nfc_authentication_cover.xml
   set_perm 644 /system/etc/permissions/com.android.nfc_extras.xml
+  set_perm 640 /system/etc/nfc_key
   set_perm 644 /system/framework/com.publicnfc.jar
   set_perm 644 /system/framework/com.android.nfc_extras.jar
   set_perm 644 /system/framework/com.samsung.android.nfc.mpos.jar
