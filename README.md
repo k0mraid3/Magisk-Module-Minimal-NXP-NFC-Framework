@@ -7,7 +7,7 @@ TODO-
 
 -Need to make the module check if /system/app/NfcNci exists before trying to copy.
 
--Source remainder of missing framework (See pic at bottom) 
+-Source remainder of missing framework (See pic at below labled S21) 
 
 -Further Debugging and log audits
 
