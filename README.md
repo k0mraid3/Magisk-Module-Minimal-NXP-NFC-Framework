@@ -9,7 +9,7 @@ TODO-
 
 -Need to make the module check if files exist before trying to copy, no need to overwrite files if they exist unless user wants this. Need some logic for this.
 
--Source remainder of missing parts. I.e Kernel Modules, JAR's, .so Libs, etc. (See pic at below labled S21) 
+-Source remainder of missing parts. I.e Kernel Modules, JAR's, .so Libs, etc. 
 
 -Identify any system properties (getprop/setprop) that need to be set and at what boot stage && create needed .prop file for module.
 
@@ -22,13 +22,10 @@ Features:
 - Attempts to enable NFC functionality on some Samsung devices by adding the missing framework, permissions and libraries and NFC apk.
 - Will attempt to provide support for NFC attachments.
 
-This module will currently enable the following features.
+This module will currently enable the following features. Further debugging is very much needed. Still missing something..
 
-![image](https://github.com/k0mraid3/Magisk-Module-NFC-Framework-for-Samsung/assets/62849592/46ec2753-b7cc-4300-8b0d-7d0a164d6483)
+![image](https://github.com/k0mraid3/Magisk-Module-NFC-Framework-for-Samsung/assets/62849592/c30359b9-930b-40b9-a4ed-1fe94f7212f3)
 
-The goal is to have all of the below enabled (This is what comes stock on my S21, so goal is to get all of these enabled in the above screenshot from the Tab S8+)
-
-![image](https://github.com/k0mraid3/Magisk-Module-NFC-Framework-for-Samsung/assets/62849592/5f69104f-daa8-46cc-a8ef-38e03587b0ae)
 
 Compatibility:
 - This module is specifically intended for modern Samsung devices released after 2020.
