@@ -30,7 +30,7 @@ This module will currently enable the following features on a software level. Fu
 
 
 Compatibility:
-- This module is specifically intended for mainly Samsung devices released after 2020, but *should* be cross compatabile with any NXP NFC chip. If you come across a different chip I need to add please let me know and ill add its firmware. 
+- This module is specifically intended for Samsung devices with NXP NFC controllers, but *should* be cross compatabile with any device using a NXP NFC chip. If you come across a different chip I need to add please let me know and I will add its firmware.
 - This was devleloped on a Samsung Galaxy Tab S8+ (Android 13) and LG Velvet (Android 11). *Not tested on any other devices yet.*
 
 Installation:
