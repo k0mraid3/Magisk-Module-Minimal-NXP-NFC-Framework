@@ -1,8 +1,7 @@
 # Minimal NFC Framework - Magisk Module - ALPHA v0.0001
 A Min-NFC-Framework template Magisk Module for NFC devs and researchers. (VERY Early Development)
 
-This Magisk module is designed for *Samsung* Android devices with NXP NFC controllers (most Galaxy series like S21,22), although it may work on older and non-samsung devices provided a few tweaks. It is basically a fully functional Mininal NFC Framework template but should have cross-compatability between different NXP NFC controllers. It will include a few extra tools and a way to hook NFC and offer broader compatibility down the road. essentially a Min-NFC-Framework template magisk module
-
+This Magisk module is designed for *Samsung* Android devices with NXP NFC controllers (most Galaxy series like S21,22), although it may work on older and non-samsung devices provided a few tweaks. It is basically a fully functional Mininal NFC Framework template but should have cross-compatability between different NXP NFC controllers. It will include a few extra tools and a way to hook NFC and offer broader compatibility down the road. essentially a Min-NFC-Framework with some dev tools.
 TODO-
 
 -Create a method to hook NFC.
