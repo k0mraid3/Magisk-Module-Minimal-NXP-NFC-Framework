@@ -55,6 +55,7 @@ Disclaimer:
 REFERENCES/DOCUMENTS
 - NXP SN220U (Galaxy S22) https://www.commoncriteriaportal.org/files/epfiles/NSCIB-CC-0258298-ST.pdf
 - NXP SN100 Series (Galaxy S21) https://www.commoncriteriaportal.org/files/epfiles/ST_SN100_SE_lite_v2_2.pdf
+
 Acknowledgments:
 - @Samsung, @NFC-Tools, @Google, @TopJohnWu @myself @everyoneiforgot
   
