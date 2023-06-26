@@ -8,6 +8,9 @@ TODO-
 
 -Include NFCGate app (Lib is already implemented in https://github.com/k0mraid3/Magisk-Module-NFC-Framework-for-Samsung/commit/b88824caf6079b3a300bd096b8dac99c425c1dd4)  as a system or systemless app. Should be placed in either /product/priv-app/ or /system/priv-app/ (https://github.com/nfcgate/nfcgate)
 
+![image](https://github.com/k0mraid3/Magisk-Module-Minimal-NXP-NFC-Framework/assets/62849592/3d1ad333-55eb-4531-8100-e8959571bf0c)
+
+
 -Need to make the module check if files exist before trying to copy, no need to overwrite files if they exist unless user wants this. Need some logic for this.
 
 -Source remainder of missing parts. **Currently top priority is secure element.** I.e Kernel Modules, JAR's, .so Libs, etc. 
