@@ -10,14 +10,14 @@ TODO-
 
 -Need to make the module check if files exist before trying to copy, no need to overwrite files if they exist unless user wants this. Need some logic for this.
 
--Source remainder of missing parts. I.e Kernel Modules, JAR's, .so Libs, etc. 
+-Source remainder of missing parts. **Currently top priority is secure element.** I.e Kernel Modules, JAR's, .so Libs, etc. 
 
 -Identify any system properties (getprop/setprop) that need to be set and at what boot stage && create needed .prop file for module.
 
 -Further Debugging and log audits
 
 
-```(TODO UPDATED 06/25/2023)```
+```(TODO UPDATED 06/26/2023)```
 
 Features:
 - This Magisk Module aims to provide a minimal NFC framework as template for future NFC based projects.
